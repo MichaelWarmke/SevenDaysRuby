@@ -15,6 +15,8 @@ end
 
 #Inline
 (1..10).each { |n| puts "Michael Warmke"}
+#better
+10.times {puts "Michael Warmke"}
 
 index = 1
 while index <= 10
@@ -25,4 +27,6 @@ end
 #Inline
 (1..10).each { |n| puts "this is sentence number #{n}"}
 
+#Better
+10.times { |number| puts "this is sentence number #{number}" }
 
